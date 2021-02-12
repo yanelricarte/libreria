@@ -43,7 +43,7 @@ function loginJson(){
         success:function(response){
             console.log(response)
             if(response.status=="ok"){
-                window.location.href = "/tpfinal/index.php/home";
+                window.location.href = "/libreria/index.php/home";
             }else{
                 $("#mensaje").html(response.mensaje)
             }
@@ -62,7 +62,7 @@ function loginJs(){
             alert(http.responseText)
         }
     }
-    http.open("POST","http://localhost/tpfinal/index.php/login/saveJs",true);
+    http.open("POST","http://localhost/libreria/index.php/login/saveJs",true);
     http.send();
 }
 

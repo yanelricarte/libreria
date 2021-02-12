@@ -43,7 +43,7 @@ class Login extends CI_Controller {
 			$param["contenido"]=$html;
 			$this->load->view("Layout/Layout",$param);
 		}else{
-			header("Location:/tpfinal/index.php/home");
+			header("Location:/libreria/index.php/home");
 		}
 	}
 	public function saveAjax(){

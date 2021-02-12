@@ -19,6 +19,6 @@
     RewriteCond %{REQUEST_FILENAME} !-d
 
     # Si el archivo/directorio no existe, redireccionamos
-    RewriteRule ^(.*)$ /tpfinal/index.php/$1 [L]
+    RewriteRule ^(.*)$ /libreria/index.php/$1 [L]
 
 </IfModule>
